@@ -93,6 +93,8 @@ button {
   border: 1px solid var(--corbtn);
   box-shadow: 2px 5px 10px 5px var(--box);
   transition: 0.5s ease-in-out;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 button:hover {
   background-color: transparent;
