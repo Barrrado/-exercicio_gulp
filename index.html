@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio de imagens</title>
+</head>
+<body>
+    <header>
+        <div class="cabeçalho">
+        <h1 class="texto-h1">COLOQUE AS IMAGENS</h1>
+        <button class="btn btn-primary" id="btn-upload" onclick="toggleMenu()">
+            <img src="./assets/images/controles1.png" alt="">
+        </button>
+        </div>
+    <div class="conteiner" id="menu">
+        <form>
+        <label>IMG:</label>
+        <input type="url" class="url" name="url" multiple>
+        <button onclick="adicionarImagemURL()">ADICIONAR +</button>
+        </form>
+        </div>
+    </header>
+    <div class="conteiner" id="conteiner">
+        <h2>GALERIA</h2>
+        <div class="img" id="imagens">
+            <img class="card-img" src="./assets/images/hands-gc143a78ba_1920.png" alt="">
+            <img class="card-img" src="./assets/images/lilies-g19bcb21a4_1920.jpg" alt="">
+            <img class="card-img" src="./assets/images/street-gddeece843_1920.jpg" alt="">
+            <img class="card-img" src="./assets/images/birds-g6b63afc7a_1920.jpg" alt="">
+            <img class="card-img" src="./assets/images/bird-ga5d9ed257_1920.jpg" alt="">
+            <img class="card-img" src="./assets/images/butterfly-g7f3546b64_1920.jpg" alt="">
+    </div>
+</body>
+<script src="./src/js/adicionarimg.js"></script>
+</script>
+</html>
